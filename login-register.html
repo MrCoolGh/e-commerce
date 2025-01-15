@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Patrick's Fashion</title>
+</head>
+<body>
+<!--=============== HEADER ===============-->
+<header class="header">
+    <div class="header__top">
+        <div class="header__container container">
+
+            <div class="header__contact">
+                <span>+233 (0)543877778</span>
+                <span>Our Location</span>
+            </div>
+
+            <p class="header__alert-news">
+                This Month Deals - Save more with coupon code -
+            </p>
+
+            <a href="login-register.html" class="header__top-action">
+                Log In / Sign Up
+            </a>
+        </div>
+    </div>
+
+    <nav class="nav__container">
+        <a href="index.html" class="nav__logo">
+            <img src="img/logo.jpg" alt="logo" class="nav__logo-img" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+            <div class="nav__menu-top">
+                <a href="index.html" class="nav__menu-logo">
+                    <img src="img/logo.jpg" alt=""/>
+                </a>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+            </div>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link ">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="shop.html" class="nav__link">Shop</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="contact.html" class="nav__link ">Contact</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="login-register.html" class="nav__link active-link">Login / Register</a>
+                </li>
+            </ul>
+
+            <div class="header__search">
+                <input type="text" placeholder="Search Products" class="form__input" />
+
+                <button class="search__btn">
+                    <img src="img/search.png" alt="search" class="search__img" />
+                </button>
+            </div>
+        </div>
+
+        <div class="header__user-actions">
+            <a href="wishlist.html" class="header__action-btn">
+                <img src="img/icon-heart.svg" alt="wishlist"/>
+                <span class="count">3</span>
+            </a>
+
+            <a href="cart.html" class="header__action-btn">
+                <img src="img/icon-cart.svg" alt="wishlist"/>
+                <span class="count">3</span>
+            </a>
+
+            <a href="login-register.html" class="header__action-btn">
+                <img src="img/user1.jpg" alt="wishlist"/>
+            </a>
+
+            <div class="header__action-btn nav__toggle" id="nav-toggle">
+                <img src="img/menu-burger.svg" alt="" />
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--=============== BREADCRUMB ===============-->
+<section class="breadcrumb">
+    <ul class="breadcrumb__list flex container">
+        <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+        <li><span class="breadcrumb__link"> ></span></li>
+        <li><span class="breadcrumb__link">Login / Register</span></li>
+    </ul>
+</section>
+
+<!--=============== LOGIN REGISTER FORM ===============-->
+<section class="cart section--lg container">
+    <div class="cart__group grid">
+        <div>
+            <div class="cart__total">
+                <h3 class="section__title">Log In</h3>
+
+                <form action="" class="form grid">
+
+                    <div class="form__group grid">
+                        <input type="email" class="form__input"
+                               placeholder="Email address">
+
+                        <input type="password" class="form__input"
+                               placeholder="Password">
+                    </div>
+
+                    <div class="form__btn">
+                        <button class="btn flex btn--sm">Login</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="cart__coupon">
+                <h3 class="section__title">Forgot Password ?</h3>
+
+                <form action="" class="coupon__form form grid">
+                    <div class="form__group grid">
+                        <input type="email" class="form__input"
+                               placeholder="Phone number or email">
+
+                        <div class="form__btn">
+                            <button class="btn flex btn--sm"> Reset Password</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+        <div class="cart__total">
+            <h3 class="section__title">Register An Account</h3>
+
+            <form class="form__group grid">
+                <input type="text" class="form__input"
+                       placeholder="Full Name">
+
+
+                <input type="number" class="form__input"
+                       placeholder="Phone Number">
+
+                <input type="email" class="form__input"
+                       placeholder="Email address">
+
+                <input type="password" class="form__input"
+                       placeholder="Password">
+
+                <input type="password" class="form__input"
+                       placeholder="Confirm Password">
+            </form>
+
+            <div class="register__btn">
+            <a href="login-register.html" class="btn flex btn--md">Sign Up</a>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<!--=============== NEWSLETTER ===============-->
+<section class="newsletter section">
+    <div class="newsletter__container container grid">
+        <h3 class="newsletter__title flex">
+            <img src="img/icon-email.svg" alt="" class="newsletter__icon">
+            Sign up for our newsletter
+        </h3>
+
+        <p class="newsletter__description">
+            ...and receive all the latest news and updates.
+        </p>
+
+        <form action="#" class="newsletter__form">
+            <input type="email" class="newsletter__input" placeholder="Enter your email address">
+            <button type="submit" class="newsletter__btn">Subscribe</button>
+        </form>
+    </div>
+</section>
+
+<!--=============== FOOTER ===============-->
+<footer class="footer container">
+    <div class="footer__container grid">
+        <div class="footer__content">
+            <a href="index.html" class="footer__logo">
+                <img src="img/logo.jpg" alt="" class="footer__logo-img">
+            </a>
+
+            <h4 class="footer__subtitle">Contact</h4>
+
+            <p class="footer__description">
+                <span>Address:</span> Dansoman High Street, Accra, Ghana
+            </p>
+
+            <p class="footer__description">
+                <span>Phone:</span> +233 (0)543877778 // +233 (0)509548113
+            </p>
+
+            <p class="footer__description">
+                <span>Email:</span> Patrickdwamena123@gmail.com
+            </p>
+
+
+            <div class="footer__social">
+                <h4 class="footer__subtitle">Follow Me</h4>
+
+                <div class="footer__social-icon">
+
+                    <a href="https://web.facebook.com/Patrick.Dwamena144" target="_blank" class="footer__social-links">
+                        <i class='bx bxl-facebook-circle'></i>
+                    </a>
+
+                    <a href="https://x.com/mR_cOOLGh"   target="_blank" class="footer__social-links">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/patrick-dwamena-a563557a/"   target="_blank" class="footer__social-links">
+                        <i class='bx bxl-linkedin' ></i>
+                    </a>
+
+                    <a href="https://github.com/MrCoolGh" target="_blank" class="footer__social-links">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Support</h3>
+
+            <ul class="footer__links">
+                <li><a href="index.html" class="footer__link">About Us</a></li>
+                <li><a href="checkout.html" class="footer__link">Delivery</a></li>
+                <li><a href="index.html" class="footer__link">Terms & Conditions</a></li>
+                <li><a href="index.html" class="footer__link">Privacy Policy</a></li>
+                <li><a href="contact.html" class="footer__link">Social Support</a></li>
+                <li><a href="contact.html" class="footer__link">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">My Account</h3>
+
+            <ul class="footer__links">
+                <li><a href="login-register.html" class="footer__link">Sign In</a></li>
+                <li><a href="cart.html" class="footer__link">View Cart</a></li>
+                <li><a href="wishlist.html" class="footer__link">My Wishlist</a></li>
+                <li><a href="login-register.html" class="footer__link">Track Orders</a></li>
+                <li><a href="checkout.html" class="footer__link">Checkout</a></li>
+                <li><a href="login-register.html" class="footer__link">Payment Method</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Secured Payment Gateways</h3>
+
+            <img src="img/payment-method.png" alt="" class="payment__img">
+            <img src="img/payment-method.jpg" alt="" class="payment__img">
+        </div>
+
+    </div>
+
+    <div class="footer__bottom">
+        <p class="copyright">Copyright &copy; 2025 by Patrick Dwamena</p>
+        <span class="designer"> All Right Reserved</span>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="main.js"></script>
+</body>
+</html>

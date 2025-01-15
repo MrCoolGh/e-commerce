@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="styles.css"/>
+  <title>Patrick's Fashion</title>
+</head>
+
+<body>
+<!--=============== MAIN ===============-->
+<main class="main">
+
+  <!--=============== HEADER ===============-->
+    <header class="header">
+        <div class="header__top">
+            <div class="header__container container">
+
+                <div class="header__contact">
+                    <span>+233 (0)543877778</span>
+                    <span>Our Location</span>
+                </div>
+
+                <p class="header__alert-news">
+                    This Month Deals - Save more with coupon code -
+                </p>
+
+                <a href="login-register.html" class="header__top-action">
+                    Log In / Sign Up
+                </a>
+            </div>
+        </div>
+
+        <nav class="nav__container">
+            <a href="index.html" class="nav__logo">
+                <img src="img/logo.jpg" alt="logo" class="nav__logo-img" />
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__menu-top">
+                    <a href="index.html" class="nav__menu-logo">
+                        <img src="img/logo.jpg" alt=""/>
+                    </a>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link ">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="shop.html" class="nav__link">Shop</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link ">Contact</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="login-register.html" class="nav__link">Login / Register</a>
+                    </li>
+                </ul>
+
+                <div class="header__search">
+                    <input type="text" placeholder="Search Products" class="form__input" />
+
+                    <button class="search__btn">
+                        <img src="img/search.png" alt="search" class="search__img" />
+                    </button>
+                </div>
+            </div>
+
+            <div class="header__user-actions">
+                <a href="wishlist.html" class="header__action-btn">
+                    <img src="img/icon-heart.svg" alt="wishlist"/>
+                    <span class="count">3</span>
+                </a>
+
+                <a href="cart.html" class="header__action-btn">
+                    <img src="img/icon-cart.svg" alt="wishlist"/>
+                    <span class="count">3</span>
+                </a>
+
+                <a href="login-register.html" class="header__action-btn">
+                    <img src="img/user1.jpg" alt="wishlist"/>
+                </a>
+
+                <div class="header__action-btn nav__toggle" id="nav-toggle">
+                    <img src="img/menu-burger.svg" alt="" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+  <!--=============== BREADCRUMB ===============-->
+  <section class="breadcrumb">
+    <ul class="breadcrumb__list flex container">
+      <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+      <li><span class="breadcrumb__link"> ></span></li>
+      <li><span class="breadcrumb__link">Fashion</span></li>
+
+      <li><span class="breadcrumb__link"> ></span></li>
+      <li><span class="breadcrumb__link">Pattern Shirts</span></li>
+    </ul>
+  </section>
+
+  <!--=============== DETAILS ===============-->
+  <section class="details section--lg">
+    <div class="details__container container grid">
+      <div class="details__group">
+        <img src="img/product-1-1.jpg" alt="product" class="details__img"/>
+
+        <div class="details__small-images grid">
+
+          <img src="img/product-2-1.jpg" alt="product"
+               class="details__small-img"/>
+
+          <img src="img/product-6-1.jpg" alt="product"
+               class="details__small-img"/>
+
+          <img src="img/product-9-1.jpg" alt="product"
+               class="details__small-img"/>
+
+          <img src="img/product-8-1.jpg" alt="product"
+               class="details__small-img"/>
+
+        </div>
+      </div>
+
+      <div class="details__group">
+        <h3 class="details__title">Pattern Shirts</h3>
+        <p class="details__brand">Brands: <span>Adidas</span></p>
+
+        <div class="details__price flex">
+          <span class="new__price">GH₵ 149.99</span>
+          <span class="old__price">GH₵ 199.99</span>
+          <span class="save__price">25% off</span>
+        </div>
+
+        <p class="short__description">
+          This Shirt has a classy, stylish and trendy
+          design so you can be sure of a perfect fit. It is made from
+          the finest cotton fabric that makes it extremely comfortable to wear
+          in hot or cold weather. You can tuck it in with a well fitted trouser
+          to achieve a business casual look or match with jeans for a more casual feel.
+          Pair with loafers, brogues, oxfords, moccasin or even plimsolls.
+        </p>
+
+        <ul class="product__list">
+          <li class="list__item flex">
+            <i class='bx bxl-jquery'></i> 1-Year Warranty
+          </li>
+
+          <li class="list__item flex">
+            <i class='bx bx-undo'></i> 30 Days Return Policy
+          </li>
+
+          <li class="list__item flex">
+            <i class='bx bxs-credit-card'></i> Payment On Delivery Available
+          </li>
+        </ul>
+
+        <div class="details__color flex">
+          <span class="details__color-title">Color</span>
+
+          <ul class="color__list">
+            <li>
+              <a href="#" class="color__link" style="background-color: #2d55f5"></a>
+            </li>
+
+            <li>
+              <a href="#" class="color__link" style="background-color: #ff0000"></a>
+            </li>
+
+            <li>
+              <a href="#" class="color__link" style="background-color: #00ff51"></a>
+            </li>
+
+            <li>
+              <a href="#" class="color__link" style="background-color: #ffcc00"></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="details__size flex">
+          <span class="details__size-title">Size</span>
+
+          <ul class="size__list">
+            <li>
+              <a href="#" class="size__link">S</a>
+            </li>
+
+            <li>
+              <a href="#" class="size__link size-active">M</a>
+            </li>
+
+            <li>
+              <a href="#" class="size__link">L</a>
+            </li>
+
+            <li>
+              <a href="#" class="size__link">XL</a>
+            </li>
+
+            <li>
+              <a href="#" class="size__link">XXL</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="details__action">
+          <input type="number" class="quantity" value="3" />
+
+          <a href="#" class="btn btn--sm">Add to Cart</a>
+
+          <a href="#" class="details__action-btn">
+            <i class='bx bx-heart' ></i>
+          </a>
+        </div>
+
+        <ul class="details__meta">
+          <li class="meta__list flex"><SPAN>SKU:</SPAN> CADF14PKD</li>
+          <li class="meta__list flex">
+            <SPAN>Tags:</SPAN> cloth, Men & Women, Shirt
+          </li>
+
+          <li class="meta__list flex">
+            <SPAN>Availability:</SPAN> 16 items available
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--=============== DETAILS TAB ===============-->
+  <section class="details__tab container">
+    <div class="detail__tabs">
+      <span class="detail__tab active-tab" data-target="#info">
+        Additional Information
+      </span>
+    </div>
+
+    <div class="details__tabs-content">
+      <div class="details__tab-content active-tab" content id="info">
+
+        <table class="info__table">
+          <tr>
+            <th>Production Country</th>
+            <th>Ghana</th>
+          </tr>
+
+          <tr>
+            <th>Weight (kg)</th>
+            <th>0.4</th>
+          </tr>
+
+          <tr>
+            <th>Size</th>
+            <th>M</th>
+          </tr>
+
+          <tr>
+            <th>Color</th>
+            <th>Red / Blue / Green / Black / Yellow</th>
+          </tr>
+
+          <tr>
+            <th>Main Material</th>
+            <th>Cotton</th>
+          </tr>
+
+          <tr>
+            <th>SKU</th>
+            <th>CADF14PKD</th>
+          </tr>
+
+          <tr>
+            <th>Brand</th>
+            <th>Adidas</th>
+          </tr>
+          <tr>
+            <th>Tags</th>
+            <th>Cloth, Men & Women, Shirt</th>
+          </tr>
+
+          <tr>
+            <th>Care instructions</th>
+            <th>Machine Wash</th>
+          </tr>
+
+          <tr>
+            <th>Closure type</th>
+            <th>Button</th>
+          </tr>
+        </table>
+
+      </div>
+      </div>
+  </section>
+
+  <!--=============== RELATED PRODUCTS ===============-->
+  <section class="new__arrivals container section" id="arrivals">
+    <h3 class="section__title"><span>Related</span> Products</h3>
+
+    <div class="new__container swiper">
+      <div class="swiper-wrapper">
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-12-2.jpg" alt="" class="product__img default">
+
+              <img src="img/product-12-1.jpg" alt="" class="product__img hover">
+            </a>
+
+            <div class="product__badge light-">Popular</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="details.html">
+              <h3 class="product__title">Floral Shirt</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 59.99</span>
+              <span class="old__price">GH₵ 99.99</span>
+
+            </div>
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-1-1.jpg" alt="" class="product__img default">
+
+              <img src="img/product-1-2.jpg" alt="" class="product__img hover">
+            </a>
+
+            <div class="product__badge light-hot">Hot</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="details.html">
+              <h3 class="product__title">Pattern T-Shirt</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 69.00</span>
+              <span class="old__price">GH₵ 89.00</span>
+
+            </div>
+
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-2-1.jpg" alt="" class="product__img default">
+
+              <img src="img/product-2-2.jpg" alt="" class="product__img hover">
+            </a>
+
+            <div class="product__badge light-new">New Added</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="details.html">
+              <h3 class="product__title">Pattern Shirt Cotton</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 122.00</span>
+              <span class="old__price">GH₵ 185.00</span>
+            </div>
+
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-3-1.jpg" alt="" class="product__img default">
+
+              <img src="img/product-3-2.jpg" alt="" class="product__img hover">
+            </a>
+
+            <div class="product__badge light-">Popular</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Footwear</span>
+            <a href="details.html">
+              <h3 class="product__title">Tree Island Shoe</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 200.00</span>
+              <span class="old__price">GH₵ 329.00</span>
+            </div>
+
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-4-1.jpg" alt="" class="product__img default">
+
+              <img src="img/product-4-2.jpg" alt="" class="product__img hover">
+            </a>
+
+            <div class="product__badge light-hot">Hot</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="details.html">
+              <h3 class="product__title">Floral Jean</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 199.00</span>
+              <span class="old__price">GH₵ 229.00</span>
+            </div>
+
+
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-5-1.jpg" alt="" class="product__img default">
+
+              <img src="img/product-5-2.jpg" alt="" class="product__img hover">
+            </a>
+
+            <div class="product__badge light-30">Promo</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Hat</span>
+            <a href="details.html">
+              <h3 class="product__title">Scarf Cap</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 50.00</span>
+              <span class="old__price">GH₵ 80.00</span>
+            </div>
+
+
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-6-1.jpg" alt="" class="product__img default">
+
+              <img src="img/product-6-2.jpg" alt="" class="product__img hover">
+            </a>
+
+            <div class="product__badge light-hot">Hot</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="details.html">
+              <h3 class="product__title">Pattern Shirt</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 25.00</span>
+              <span class="old__price">GH₵ 50.00</span>
+            </div>
+
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-7-1.jpg" alt="" class="product__img default">
+
+              <img src="img/product-7-2.jpg" alt="" class="product__img hover">
+            </a>
+
+            <div class="product__badge light-new">New Added</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="details.html">
+              <h3 class="product__title">Cat Print Shirt</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 150.00</span>
+              <span class="old__price">GH₵ 180.00</span>
+            </div>
+
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-8-1.jpg" alt="" class="product__img default">
+
+              <img src="img/product-8-2.jpg" alt="" class="product__img hover">
+            </a>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="details.html">
+              <h3 class="product__title">Pinwale Pocket Shirt</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 64.99</span>
+              <span class="old__price">GH₵ 94.99</span>
+            </div>
+
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-9-1.jpg" alt="" class="product__img default">
+
+              <img src="img/product-9-2.jpg" alt="" class="product__img hover">
+            </a>
+
+            <div class="product__badge light-30">Promo</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="details.html">
+              <h3 class="product__title">Summer Pattern Shirt</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 120.00</span>
+              <span class="old__price">GH₵ 150.00</span>
+            </div>
+
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-10-1.jpg" alt="" class="product__img default">
+
+              <img src="img/product-10-2.jpg" alt="" class="product__img hover">
+            </a>
+
+            <div class="product__badge light-new">New Added</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Footwear</span>
+            <a href="details.html">
+              <h3 class="product__title">Interwoven Sandals</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 40.00</span>
+              <span class="old__price">GH₵ 50.00</span>
+            </div>
+
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+
+          </div>
+        </div>
+
+        <div class="product__item swiper-slide">
+          <div class="product__banner">
+            <a href="details.html" class="product__images">
+              <img src="img/product-11-1.jpg" alt="" class="product__img default">
+
+              <img src="img/product-11-2.jpg" alt="" class="product__img hover">
+            </a>
+
+            <div class="product__badge light-hot">Hot</div>
+          </div>
+
+          <div class="product__content">
+            <span class="product__category">Clothing</span>
+            <a href="details.html">
+              <h3 class="product__title">Floral Print Trouser</h3>
+            </a>
+            <div class="product__rating">
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+              <i class='bx bx-star' ></i>
+            </div>
+
+            <div class="product__price flex">
+              <span class="new__price">GH₵ 69.99</span>
+              <span class="old__price">GH₵ 79.99</span>
+            </div>
+
+            <a href="" class="action-btn cart__btn" aria-label="Add to Cart">
+              <i class='bx bx-cart'></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-button-next">
+        <i class='bx bxs-chevron-right'></i>
+      </div>
+
+      <div class="swiper-button-prev">
+        <i class='bx bxs-chevron-left' ></i>
+      </div>
+    </div>
+  </section>
+
+  <!--=============== NEWSLETTER ===============-->
+  <section class="newsletter section">
+    <div class="newsletter__container container grid">
+      <h3 class="newsletter__title flex">
+        <img src="img/icon-email.svg" alt="" class="newsletter__icon">
+        Sign up for our newsletter
+      </h3>
+
+      <p class="newsletter__description">
+        ...and receive all the latest news and updates.
+      </p>
+
+      <form action="#" class="newsletter__form">
+        <input type="email" class="newsletter__input" placeholder="Enter your email address">
+        <button type="submit" class="newsletter__btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!--=============== FOOTER ===============-->
+<footer class="footer container">
+  <div class="footer__container grid">
+    <div class="footer__content">
+      <a href="index.html" class="footer__logo">
+        <img src="img/logo.jpg" alt="" class="footer__logo-img">
+      </a>
+
+      <h4 class="footer__subtitle">Contact</h4>
+
+      <p class="footer__description">
+        <span>Address:</span> Dansoman High Street, Accra, Ghana
+      </p>
+
+      <p class="footer__description">
+        <span>Phone:</span> +233 (0)543877778 // +233 (0)509548113
+      </p>
+
+      <p class="footer__description">
+        <span>Email:</span> Patrickdwamena123@gmail.com
+      </p>
+
+
+      <div class="footer__social">
+        <h4 class="footer__subtitle">Follow Me</h4>
+
+        <div class="footer__social-icon">
+
+          <a href="https://web.facebook.com/Patrick.Dwamena144" target="_blank" class="footer__social-links">
+            <i class='bx bxl-facebook-circle'></i>
+          </a>
+
+          <a href="https://x.com/mR_cOOLGh"   target="_blank" class="footer__social-links">
+            <i class='bx bxl-twitter' ></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/patrick-dwamena-a563557a/"   target="_blank" class="footer__social-links">
+            <i class='bx bxl-linkedin' ></i>
+          </a>
+
+          <a href="https://github.com/MrCoolGh" target="_blank" class="footer__social-links">
+            <i class='bx bxl-github' ></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer__content">
+      <h3 class="footer__title">Support</h3>
+
+      <ul class="footer__links">
+        <li><a href="index.html" class="footer__link">About Us</a></li>
+        <li><a href="checkout.html" class="footer__link">Delivery</a></li>
+        <li><a href="index.html" class="footer__link">Terms & Conditions</a></li>
+        <li><a href="index.html" class="footer__link">Privacy Policy</a></li>
+        <li><a href="contact.html" class="footer__link">Social Support</a></li>
+        <li><a href="contact.html" class="footer__link">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__content">
+      <h3 class="footer__title">My Account</h3>
+
+      <ul class="footer__links">
+        <li><a href="login-register.html" class="footer__link">Sign In</a></li>
+        <li><a href="cart.html" class="footer__link">View Cart</a></li>
+        <li><a href="wishlist.html" class="footer__link">My Wishlist</a></li>
+        <li><a href="login-register.html" class="footer__link">Track Orders</a></li>
+        <li><a href="checkout.html" class="footer__link">Checkout</a></li>
+        <li><a href="login-register.html" class="footer__link">Payment Method</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__content">
+      <h3 class="footer__title">Secured Payment Gateways</h3>
+
+      <img src="img/payment-method.png" alt="" class="payment__img">
+      <img src="img/payment-method.jpg" alt="" class="payment__img">
+    </div>
+
+  </div>
+
+  <div class="footer__bottom">
+    <p class="copyright">Copyright &copy; 2025 by Patrick Dwamena</p>
+    <span class="designer"> All Right Reserved</span>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="main.js"></script>
+</body>
+</html>
